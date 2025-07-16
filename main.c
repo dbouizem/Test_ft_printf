@@ -15,9 +15,39 @@
 
 int main(void)
 {
-	int x = 42;
+	int n = 42;
+
+	ft_printf("%c", 'A');
+ 	printf("%c", 'A');
+
+	ft_printf("%s", "hello");
+ 	printf("%s", "hello");
+
+	ft_printf("%d", 42);
+ 	printf("%d", 42);
+
+	t_printf("%i", -42);
+ 	printf("%i", -42);
+
+	ft_printf("%u", 42u);
+ 	printf("%u", 42u);
+
+	ft_printf("%x", 255);
+ 	printf("%x", 255);
+
+	ft_printf("%X", 255);
+ 	printf("%X", 255);
+
+	ft_printf("%p", &n);
+ 	printf("%p", &n);
+
+	ft_printf("%%");
+	printf("%%");
 
 printf("===== OK: =====\n");
+
+ int n = 42;
+
     ft_printf("[%07i]\n", -54);
 //"-000054"
 
