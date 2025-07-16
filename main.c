@@ -26,9 +26,6 @@ int main(void)
 	ft_printf("%d", 42);
  	printf("%d", 42);
 
-	t_printf("%i", -42);
- 	printf("%i", -42);
-
 	ft_printf("%u", 42u);
  	printf("%u", 42u);
 
